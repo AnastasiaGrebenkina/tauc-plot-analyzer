@@ -2,7 +2,9 @@
 This tool automates the calculation of the optical band gap (Eg) from UV-Vis absorption spectra using the Tauc plot method.
 
 The script expects an Excel file named data.xlsx in the root directory.
+
 Column A: Wavelength in nm
+
 Column B: Absorbance (А) in arbitrary units.
 
 The script automatically converts Absorbance to Reflectance and then applies the Kubelka-Munk function before plotting.
